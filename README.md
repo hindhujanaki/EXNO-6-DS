@@ -176,7 +176,7 @@ sns.kdeplot(data=tips, x='total_bill', hue='time', multiple='stack', linewidth=3
 import numpy as np
 data=np.random.randint(low=1, high=100, size=(10,10))
 hm=sns.heatmap(data=data,annot=True)
-
+```
 ![image](https://github.com/hindhujanaki/EXNO-6-DS/assets/148514666/9aa5e388-aec4-4beb-a889-40dbeda96ba2)
 
 
